@@ -7,3 +7,120 @@
 
 
 <http://industrialinference.com/2019/03/account#> rdf:type owl:Ontology .
+
+:Party a owl:Class;
+  rdfs:label "party" ;
+  rdfs:comment """ Assuming that an account or service relationship is a form of legally
+binding relationship between two parties, then the entities that can be party to
+such a contract are meant by `party` here.""" .
+
+:Contract a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:ContractRole a owl:Class;
+  rdfs:label "contract role" ;
+  rdfs:comment """A contract role is an indication of the legal obligation to
+  perform some aspect of a service provision process.  This concept is kept
+  separate from the concept of parties since a role in a contract is a
+  time-limited state of affairs that does not disqualify the party from
+  participating in other relationships in some other role. To clarify, you
+  could provide services to me, but that doesn't mean you cant consume some
+  other partys services.
+  """ ;
+
+:ServiceConsumer owl:subClassOf :ContractRole;
+  rdfs:label "service consumer";
+  rdfs:comment """Within the context of a contractual relationship, a service
+  consumer role means that the party is the recipient of the services and goods
+  offered as part of the service offering""" .
+  
+:ServiceProvider owl:subClassOf :ContractRole;
+  rdfs:label "service provider";
+  rdfs:comment """Within the context of a contractual relationship, a service
+  provider role indicates that the party is the performer of the services provided or giver of goods
+  offered as part of the service offering""" .
+
+:Relationship a owl:Class ;
+  rdfs:label "relationship" ;
+  rdfs:comment """A relationship is the state of affairs that exists for the duration of a contract.
+ Often, a service provider will maintain so many such relationships that they
+ need technical assistance in tracking them all.  This is the purpose of
+ relationship identifiers such as account numbers, member IDs etc. """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
+:XYZ a owl:Class ;
+  rdfs:label "" ;
+  rdfs:comment """ """ .
+  
