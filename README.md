@@ -3,17 +3,17 @@ An ontology capturing the essence of what it means to hold an account with some 
 
 ## Key concepts
 
-party, service provider, service consumer
-contract, agreement, relationship
-term, interval, period
-commitment, contractual undertaking, obligation, right, duty, permission, access to, 
-service
-service fee, recompense
-service consumption, service delivery
-service contract identifier, account number
-account, balance, credit, debit, pre/post payment
-service component, service entitlement, service offering, 
-regulation, law, constraint, contractual qualification, 
+- party, service provider, service consumer
+- contract, agreement, relationship
+- term, interval, period
+- commitment, contractual undertaking, obligation, right, duty, permission, access to, 
+- service
+- service fee, recompense
+- service consumption, service delivery
+- service contract identifier, account number
+- account, balance, credit, debit, pre/post payment
+- service component, service entitlement, service offering, 
+- regulation, law, constraint, contractual qualification, 
 
 ## objectives
 
