@@ -48,9 +48,9 @@ such a contract are meant by `party` here.""" .
  need technical assistance in tracking them all.  This is the purpose of
  relationship identifiers such as account numbers, member IDs etc. """ .
   
-:XYZ a owl:Class ;
-  rdfs:label "" ;
-  rdfs:comment """ """ .
+:InternetServiceProvider a :ServiceProvider ;
+  rdfs:label "ISP" ;
+  rdfs:comment """ A provider of internet access """ .
   
 :XYZ a owl:Class ;
   rdfs:label "" ;
